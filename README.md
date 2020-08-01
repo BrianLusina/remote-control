@@ -16,3 +16,39 @@ A couple of things you will need:
    This is necessary to simulate Keyboard & mouse inputs. Depending on your OS architecture, the installation instructions
    in the provided link should be enough to get you started.
 
+## Getting started
+
+Once you have everything above setup, now all you need to do is the following:
+
+Install required dependencies wither with `npm` or with `yarn`
+
+``` bash
+npm install
+# or
+yarn
+```
+
+Aftewards, you start the dev server:
+
+```bash
+npm start
+# or
+yarn start
+```
+
+You should now see something as below:
+
+|Home Page  | Netflix|  YouTube | Amazon Prime Video | Generic/Music PLayer  |
+|---|---|---|---|---|
+| ![Home Page](./docs/images/home_page.png)  | ![Netflix](./docs/images/Netflix.png)| ![Youtube](./docs/images/YouTube.png)  |![Amazon Prime](./docs/images/Amazon_prime_video.png)   | ![Generic](./docs/images/Generic_Music_Player.png)  |
+
+## Built with
+
+1. JavaScript
+2. [Pug](https://pugjs.org/api/getting-started.html)
+3. [Express](https://expressjs.com/)
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-pug.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com)
