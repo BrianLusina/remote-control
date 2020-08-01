@@ -46,6 +46,12 @@ You should now see something as below:
 |---|---|---|---|---|
 | ![Home Page](./docs/images/home_page.png)  | ![Netflix](./docs/images/Netflix.png)| ![Youtube](./docs/images/YouTube.png)  |![Amazon Prime](./docs/images/Amazon_prime_video.png)   | ![Generic](./docs/images/Generic_Music_Player.png)  |
 
+Now you can interact with the remote if on Linux:
+
+On an actual phone attached to the same wifi network as the host that’s running `npm start` and a movie or music player. 
+It’s just a matter of pointing a smartphone’s web browser to the host’s local IP address (with :3000 suffixed to it), 
+which is probably easiest found by running `hostname -I | awk '{print $1}'` in a terminal on the host.
+
 ## Built with
 
 1. JavaScript
