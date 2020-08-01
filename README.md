@@ -1,5 +1,9 @@
 # Remote Control
 
+![Code scanning](https://github.com/BrianLusina/remote-control/workflows/Code%20scanning/badge.svg)
+![Github Release](https://github.com/BrianLusina/remote-control/workflows/Github%20Release/badge.svg)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c2a0555a2d784b18872fefa9bbe6cf72)](https://www.codacy.com/manual/BrianLusina/remote-control?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrianLusina/remote-control&amp;utm_campaign=Badge_Grade)
+
 A basic remote control built with Pug view engine & NodeJS
 
 ## Prerequisites
