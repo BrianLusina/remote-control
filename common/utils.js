@@ -14,7 +14,7 @@ module.exports = {
                 error_group: true
             }
         }
-        const {commands} = group;
+        const {commands, window_name_override} = group;
 
         if (!commands) {
             return {
@@ -23,7 +23,8 @@ module.exports = {
         }
 
         return {
-            commands
+            commands,
+            window_name_override
         }
     }
 }
